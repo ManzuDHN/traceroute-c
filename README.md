@@ -19,7 +19,7 @@ Il programma invia pacchetti UDP con TTL variabile per mappare il percorso (hop)
 - Non supporta IPv6
 - Potrebbe non funzionare verso destinazioni che bloccano pacchetti UDP verso porte alte
 - Il tempo massimo di attesa per risposta è impostato a 2 secondi
-- Se il RTT supera 500 ms viene segnalato un possibile problema di rete
+- Se il RTT supera 100 ms viene segnalato un possibile problema di rete
 - Alcuni router potrebbero non rispondere, mostrando asterischi nel risultato
 
 ## Requisiti
